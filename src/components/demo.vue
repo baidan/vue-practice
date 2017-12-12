@@ -25,7 +25,7 @@ export default {
   name: 'demo',
   data () {
     return {
-      msg: 'Weasdfsadfe.js App'
+      msg: '调整'
     }
   }
 }

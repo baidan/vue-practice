@@ -9,7 +9,6 @@ module.exports = {
     env: {
         browser: true,
     },
-    // https://github.com/standard/standard/blob/master/docs/RULES-en.md
     extends: 'standard',
     // required to lint *.vue files
     plugins: [
@@ -27,6 +26,8 @@ module.exports = {
         'no-mixed-spaces-and-tabs': 0,
         'no-unused-vars': 0,
         "indent": 0,
-        "eol-last": 0
+        "eol-last": 0,
+        "key-spacing":0,
+        "no-trailing-spaces":0
     }
 }

@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ msg}}</h1>
+    <h1>{{ msg}}</h1>
+    <pre>{{$data}}</pre>
+    <input v-bind:data-test="msg">
+    <input v-model="msg">
   </div>
 </template>
 
@@ -12,7 +16,7 @@ export default {
       msg: '操作成功',
       code:'0000',
       data:[{
-        
+        key:'ddd'
       }]
     }
   }
